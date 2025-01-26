@@ -4,6 +4,9 @@
 
 # To display pie chart in the result I used ### `react-recharts package`
 
+# Deployed Link : 
+   check the deployment:    (https://etlglobal-git-master-rjreddy111s-projects.vercel.app)
+
 
 
 # Getting Started with Create React App
