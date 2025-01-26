@@ -1,0 +1,20 @@
+.list-question-number {
+    width: 28px;
+    height: 28px;
+    background-color:#E6E9EE;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+.active {
+    border: 1px solid orange;
+}
+
+.answered {
+    background-color: green;
+    color: #ffffff;
+}

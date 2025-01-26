@@ -1,0 +1,24 @@
+.list-options-style {
+    list-style-type: none;
+    margin-left:5px;
+    
+}
+
+.label-option {
+    display: flex;
+    margin-bottom: 25px;
+}
+.question-heading {
+    margin-bottom: 45px;
+}
+
+.display-question {
+    height: 80%;
+    
+}
+@media screen and (max-width : 560px) {
+    .question-heading {
+        font-size: 22px;
+    }
+    
+}

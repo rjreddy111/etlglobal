@@ -1,0 +1,41 @@
+.list-styling {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    width: 80%;
+    height: 300px;
+
+
+
+}
+
+@media  screen and (max-width:560px) {
+    .list-styling{
+        display: none;
+    }
+    
+}
+
+.each-list-item {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #EC6316;
+    padding: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    
+
+    
+    
+
+}
+
+.not_selected {
+    background-color: #ffffff;
+    color: #000000;
+   
+}
