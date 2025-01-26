@@ -396,7 +396,7 @@ class Home extends Component {
         console.log(selectedAnswers)
         const activeQuestion = questions.find((eachQuestion)=> eachQuestion.id === `q${questionNumber}`)
         const answeredCounts = this.getAnsweredCounts()
-        const isSubmitEnable = answeredCounts >=1
+        const isSubmitEnable = answeredCounts >=15
         const unattemptedQuesitions = this.getUnattempted()
         console.log(isSubmitEnable)
       
